@@ -1,6 +1,6 @@
 import style from './style.module.scss'
 import { useState } from "react";
-import useDimension from '../../hook/useDimension';
+import useDimension from '../../../hook/useDimension';
 
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
